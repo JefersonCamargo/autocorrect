@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <InputAutocorrect></InputAutocorrect>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InputAutocorrect from "@/components/InputAutocorrect";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    InputAutocorrect,
   }
 }
 </script>
